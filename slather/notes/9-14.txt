@@ -1,0 +1,34 @@
+Q&A
+all simulators available on courseworks under projectname/simulator/month-day.zip
+you do not see how long a pherome has been on the board
+pheromes are point masses. collision occurs if the pherome intersects the cell anywhere
+memory is accessed the same way between all of your cells, so if you want each cell to have a different strategy, the strategy needs to be encoded in the memory
+
+Groups
+1. David W, Martina, Jillian, Stephanie
+2. Bruce, Chengyu, Yogesh, Michael
+3. David R, Frank, Jiacheng, Oliver
+4. Zhimao, Tian, Yuiei
+5. Adam, Kailash, Lu
+6. Avidan, Xi, Julian
+7. Yueting, Shardendu, Rajan
+8. Eashmar, Florian, Sharan
+9. Zeynap, Ying, Rajiv
+
+
+Discussion
+Zeynap: cells of the same species should stick together to ward off other cells
+Adam: for large t, should build walls to keep other species out
+Yufei: grab empty space early on in the game to reproduce faster
+Michael: carve out certain shapes e.g circles
+Yueting: give each cell different strategies so they perform different roles
+growth happens from center of cell outwards uniformly. cannot grow in specific directions
+if cells are traveling in a formation, need to make sure they move apart slightly in order to ensure sufficient space for reproduction
+Jiacheng: use all cells to map out a circle spanning a large perimeter
+David: try to have cells predict what neighboring friendly cells will do since they act according to the same code. You don't have complete information to predict since vision is not transitive and the friendly cell's memory is not accessible
+Michael: too many other players for an aggressive strategy to be worth it
+Florian: only delegate some cells to be aggressive and ruin everyone else's day
+Bruce: cells can chase cells of the same species to form a long line like a snake. can follow just a friendly pherome path to increase vision distance
+
+Deliverable for Wedn 9-21:
+initial player that does something interesting
