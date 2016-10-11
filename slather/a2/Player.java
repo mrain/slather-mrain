@@ -1,4 +1,4 @@
-package slather.g2;
+package slather.a2;
 
 import slather.sim.Cell;
 import slather.sim.Point;
@@ -109,11 +109,11 @@ public class Player implements slather.sim.Player {
             if(nextIsCircle){
                 // System.out.println("nextIsCircle");
             }
-            if(!nextIsCircle) {
+//            if(!nextIsCircle) {
                 m = scout.play(player_cell, memory, nearby_cells, nearby_pheromes);
-            } else {
-                m = occupier.play(player_cell, memory, nearby_cells, nearby_pheromes);
-            }
+//            } else {
+//                m = occupier.play(player_cell, memory, nearby_cells, nearby_pheromes);
+//            }
         }
 
         // System.out.println(move2String(m));

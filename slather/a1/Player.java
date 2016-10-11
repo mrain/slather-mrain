@@ -167,11 +167,11 @@ public class Player implements slather.sim.Player {
 			// No angle available
 		}
 
-		System.out.print(events.size());
+		/*System.out.print(events.size());
 		for (Event event: events)
 			System.out.print(" (" + event.value + "," + event.index + ")");
 		System.out.println();
-		System.out.println("width: " + width + ", angle: " + result);
+		System.out.println("width: " + width + ", angle: " + result);*/
 		return result;
 	}
 
