@@ -102,7 +102,7 @@ public class Player implements slather.sim.Player {
             }
         } else {
             boolean nextIsCircle = byteIsCircle(memory);
-            // nextIsCircle = false;
+            nextIsCircle = false;
             // if(scout.crowded(player_cell,nearby_cells)){
             //     nextIsCircle = true;
             // }
